@@ -3,7 +3,7 @@ import torch
 sys.path.append("src")
 from params import *
 from dataloaders import create_dataloaders_GSC
-from model import WaveSenseNet_Hardware
+from model_for_fintune import WaveSenseNet_Hardware
 import tqdm
 import numpy as np
 from sklearn.metrics import f1_score

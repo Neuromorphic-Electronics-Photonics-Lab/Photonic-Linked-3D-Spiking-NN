@@ -13,7 +13,7 @@ import random
 from torch.optim import AdamW
 import os
 
-from model import WaveSenseNet_Hardware
+from model_for_train import WaveSenseNet_Hardware
 from utils import *
 
 #GSC 2 classes
